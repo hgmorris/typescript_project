@@ -23,7 +23,7 @@ Future Work
 
 There are several areas for improvement and expansion in the Budget Tracker project:
 
-    UI/UX Enhancements: Improve the user interface and experience by adding more interactive elements and visual feedback for operations.
+UI/UX Enhancements: Improve the user interface and experience by adding more interactive elements and visual feedback for operations.
 Category Management: Implement functionality to categorize items and filter the view based on categories.
 Data Visualization: Integrate charts or graphs to provide visual summaries of income and expenses over time.
 
