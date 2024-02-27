@@ -2,7 +2,7 @@ interface FinancialItem {
     id: number;
     description: string;
     amount: number;
-    type: 'income' | 'expense';
+    type: 'income' | 'expense'; 
   }
   
   class BudgetTracker {
