@@ -6,7 +6,7 @@ In the context of advancing my understanding of TypeScript and its practical app
 
 The Budget Tracker is designed to help users manage their finances by allowing them to add and remove income and expense items. It showcases the dynamic nature of TypeScript in handling arrays of objects, event listeners, and local storage manipulation. This project served as an excellent opportunity to deepen my grasp of TypeScript syntax, especially in defining types and interfaces, and employing them to ensure the application runs reliably and error-free.
 
-
+My Youtube video link: https://youtu.be/LN0Eeh09ckU
 
 For this project, I utilized Visual Studio Code (VSCode) as my integrated development environment (IDE). VSCode offers excellent support for TypeScript, including syntax highlighting, code completion, and error detection, which significantly enhances the development experience.
 
