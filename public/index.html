@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Budget Tracker</h1>
+    <form id="budgetForm">
+        <input type="text" id="description" placeholder="Description" required>
+        <input type="number" id="amount" placeholder="Amount" required>
+        <select id="type">
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+            <option value="savings">Savings</option>
+            <option value="investment">Investment</option>
+            <option value="other">Other</option>
+        </select>
+        <button type="submit">Add</button>
+    </form>
+    <div id="itemsList">
+        <div class="item">
+            <div>Salary</div>
+            <div>+$5000</div>
+            <button class="delete">X</button>
+        </div>
+        <div class="item">
+            <div>Rent</div>
+            <div>-$1000</div>
+            <button class="delete">X</button>
+        </div>
+    </div>
+
+    <script src="../src/index.js"></script>
+</body>
+</html>

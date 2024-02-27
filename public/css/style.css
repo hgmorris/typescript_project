@@ -1,0 +1,67 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header styles */
+h1 {
+    color: #444;
+}
+
+/* Form styling */
+form#budgetForm {
+    background-color:#0077b6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; 
+}
+
+button {
+    background-color: #5cb85c; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Styles for the items list */
+#itemsList {
+    margin-top: 20px;
+}
+
+#itemsList div {
+    background-color: #0077b6;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#itemsList .expense {
+    color: #d9534f; 
+}
+
+#itemsList .income {
+    color: #5cb85c; 
+}
